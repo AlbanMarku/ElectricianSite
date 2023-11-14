@@ -1,0 +1,20 @@
+.Banner {
+  padding-top: 20px;
+  background-color: white;
+}
+
+.contact-area {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-area p {
+  color: rgb(116, 114, 114);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.Banner img {
+  height: 120px;
+  margin-top: -50px;
+}
