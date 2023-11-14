@@ -1,0 +1,20 @@
+.welcome-wrapper {
+  margin-top: -130px;
+  padding-top: 300px;
+  background-color: white;
+}
+
+.outer-container {
+  height: 900px;
+  background-color: red;
+}
+
+.inner-container {
+  height: 100%;
+  background-color: white;
+  border-bottom-left-radius: 400px;
+}
+
+.inner-container h1 {
+  background-color: orange;
+}
