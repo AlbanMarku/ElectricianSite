@@ -18,3 +18,7 @@
   height: 120px;
   margin-top: -50px;
 }
+
+.banner-wrapper {
+  background-color: red;
+}

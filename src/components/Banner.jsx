@@ -5,14 +5,16 @@ import '../styles/banner.css';
 
 export default function Banner() {
   return (
-    <Container>
-      <div className="Banner">
-        <div className="contact-area">
-          <p>Mobile: 07306066306</p>
-          <p>Email: albanmarku@duck.com</p>
+    <div className="banner-wrapper">
+      <Container>
+        <div className="Banner">
+          <div className="contact-area">
+            <p>Mobile: 07306066306</p>
+            <p>Email: albanmarku@duck.com</p>
+          </div>
+          <img src={logo} alt="logo" />
         </div>
-        <img src={logo} alt="logo" />
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }

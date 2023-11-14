@@ -1,0 +1,16 @@
+.Hero {
+  height: 900px;
+  overflow: hidden;
+  background-image: url('../assets//images/hero.jpg');
+  background-size: cover;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+.wrapper {
+  height: 700px;
+}
+
+.hero-wrapper {
+  background-color: red;
+}
