@@ -15,6 +15,42 @@
   border-bottom-left-radius: 400px;
 }
 
-.inner-container h1 {
-  background-color: orange;
+.welcome-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-area {
+  flex: 1;
+  font-family: 'Dongle';
+  text-align: left;
+  border: solid red 1px;
+}
+
+.info-area h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 75px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 60px;
+}
+
+#bolder {
+  color: black;
+}
+
+.info-area p {
+  color: #646464;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.display-area {
+  flex: 1;
+  background-color: yellow;
+}
+
+.display-area img {
+  width: 100px;
 }
