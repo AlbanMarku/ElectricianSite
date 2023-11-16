@@ -1,16 +1,16 @@
 .nav-bar {
   padding: 20px;
-  background-color: white;
+  background-color: var(--myWhite);
   border-bottom: 1px solid darkgrey;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
 .NavComp {
-  background-color: red;
+  background-color: var(--myRed);
 }
 
 .bar-wrapper {
   padding-top: 40px;
-  background-color: red;
+  background-color: var(--myRed);
 }

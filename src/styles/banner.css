@@ -1,6 +1,6 @@
 .Banner {
   padding-top: 20px;
-  background-color: white;
+  background-color: var(--myWhite);
 }
 
 .contact-area {
@@ -20,5 +20,5 @@
 }
 
 .banner-wrapper {
-  background-color: red;
+  background-color: var(--myRed);
 }

@@ -12,5 +12,5 @@
 }
 
 .hero-wrapper {
-  background-color: red;
+  background-color: var(--myRed);
 }

@@ -4,6 +4,8 @@
 .app {
   font-family: 'Domine', 'Dongle', serif;
   text-align: center;
+  --myRed: #af0909;
+  --myWhite: #f2e9e4;
 }
 
 .app-logo {
