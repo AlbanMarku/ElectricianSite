@@ -17,18 +17,19 @@
 
 .welcome-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .info-area {
   flex: 1;
+  margin-right: 50px;
   font-family: 'Dongle';
   text-align: left;
-  border: solid red 1px;
 }
 
 .info-area h1 {
-  margin-bottom: 10px;
+  max-width: 500px;
+  margin-bottom: 40px;
   font-weight: 700;
   font-size: 75px;
   font-family: 'Dongle', sans-serif;
@@ -47,10 +48,27 @@
 }
 
 .display-area {
-  flex: 1;
-  background-color: yellow;
+  flex: 2;
+  max-width: 600px;
+  color: white;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+}
+
+.display-area-text {
+  padding: 50px;
+}
+
+.display-area p {
+  font-size: 22px;
+  font-family: 'Domine', serif;
+  line-height: 40px;
+  text-align: right;
 }
 
 .display-area img {
-  width: 100px;
+  width: 100%;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
