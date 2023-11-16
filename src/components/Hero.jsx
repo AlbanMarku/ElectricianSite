@@ -5,7 +5,7 @@ import '../styles/hero.css';
 export default function Hero() {
   return (
     <div className="hero-wrapper">
-      <Container>
+      <Container style={{ maxWidth: '1800px' }}>
         <div className="wrapper">
           <div className="Hero">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam

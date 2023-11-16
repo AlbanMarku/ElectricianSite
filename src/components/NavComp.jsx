@@ -9,7 +9,7 @@ export default function NavComp() {
   return (
     <div className="bar-wrapper">
       <div className="NavComp">
-        <Container>
+        <Container fluid style={{ maxWidth: '1800px' }}>
           <Navbar expand="lg" className="nav-bar">
             <Container>
               <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>

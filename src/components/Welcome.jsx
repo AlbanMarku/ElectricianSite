@@ -7,7 +7,7 @@ export default function Welcome() {
     <div className="welcome-wrapper">
       <div className="outer-container">
         <div className="inner-container">
-          <Container>
+          <Container style={{ maxWidth: '1800px' }}>
             <h1>cont 2</h1>
           </Container>
         </div>

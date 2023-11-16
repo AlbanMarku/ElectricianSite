@@ -6,7 +6,7 @@ import '../styles/banner.css';
 export default function Banner() {
   return (
     <div className="banner-wrapper">
-      <Container>
+      <Container style={{ maxWidth: '1800px' }}>
         <div className="Banner">
           <div className="contact-area">
             <p>Mobile: 07306066306</p>
