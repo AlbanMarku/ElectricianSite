@@ -1,0 +1,61 @@
+.ChooseUs {
+  position: relative;
+  padding: 100px 0;
+  background-color: var(--myRed);
+}
+
+.choose-us-info {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  width: 60%;
+  padding: 0 80px;
+  color: var(--myWhite);
+  font-family: 'Dongle';
+  text-align: left;
+}
+
+.why-choose {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.what-choose ul {
+  color: orange;
+}
+
+.choose-us-info h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 75px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 60px;
+}
+
+.choose-us-info p,
+.choose-us-info ul {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+#choose-btn {
+  max-width: 200px;
+  font-size: 26px;
+  background-color: #1d1d1d;
+  border: none;
+}
+
+.choose-us-img {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  bottom: -80px;
+  z-index: 2;
+  width: 40%;
+  background: url('../assets//images//chooseUs.jpg') no-repeat center;
+  background-size: auto;
+  background-size: cover;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}

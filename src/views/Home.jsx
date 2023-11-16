@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Banner from '../components/Banner';
+import ChooseUs from '../components/ChooseUs';
 import Hero from '../components/Hero';
 import NavComp from '../components/NavComp';
 import Welcome from '../components/Welcome';
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner />
       <Hero />
       <Welcome />
+      <ChooseUs />
     </div>
   );
 }
