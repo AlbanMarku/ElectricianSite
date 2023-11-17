@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import ChooseUs from '../components/ChooseUs';
 import Hero from '../components/Hero';
 import NavComp from '../components/NavComp';
+import Review from '../components/Review';
 import Welcome from '../components/Welcome';
 import '../styles/home.css';
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Welcome />
       <ChooseUs />
+      <Review />
     </div>
   );
 }
