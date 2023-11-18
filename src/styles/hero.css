@@ -1,4 +1,4 @@
-.Hero {
+.lg {
   position: relative;
   height: 900px;
   overflow: hidden;
@@ -9,19 +9,40 @@
   border-bottom-left-radius: 80px;
 }
 
-.wrapper {
+.sm {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.479)),
+    url('../assets//images/hero.jpg');
+  background-size: cover;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
 }
 
 .hero-wrapper {
   background-color: var(--myRed);
 }
 
-.Hero h1 {
+.lg h1 {
   position: absolute;
   right: 80px;
   bottom: 80px;
   z-index: 1;
   width: 400px;
+  padding-right: 40px;
+  color: var(--myWhite);
+  font-size: 30px;
+  line-height: 50px;
+  text-align: right;
+  border-right: solid 4px #f2e9e4;
+}
+
+.sm h1 {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  z-index: 1;
   padding-right: 40px;
   color: var(--myWhite);
   font-size: 30px;
