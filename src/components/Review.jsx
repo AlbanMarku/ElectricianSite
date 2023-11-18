@@ -1,3 +1,4 @@
+import { Rating } from '@mui/material';
 import Container from 'react-bootstrap/Container';
 
 import '../styles/review.css';
@@ -9,7 +10,9 @@ export default function Review() {
         <div className="container">
           <div className="review-img" />
           <div className="review-info">
-            <div className="stars">star</div>
+            <div className="stars">
+              <Rating readOnly value="5" size="large" />
+            </div>
             <div className="review-text">
               <p>
                 &quot; Rapid response from Luca. We couldn&apos;t work out why
@@ -18,6 +21,8 @@ export default function Review() {
                 able to attend same day! Issue was traced and resolved in quick
                 order, very happy. &quot;
               </p>
+              <p id="customer">Customer from Checkatrade</p>
+              <p id="location">London</p>
             </div>
           </div>
         </div>

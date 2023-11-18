@@ -6,6 +6,7 @@
   flex: 1;
   width: 100%;
   height: 700px;
+  margin: 40px;
   background: url('../assets/images/review.jpg') no-repeat center;
   background-size: auto;
   background-size: cover;
@@ -18,14 +19,38 @@
 
 .review-info {
   flex: 1;
-  max-width: 600px;
+  max-width: 500px;
   padding: 40px;
   text-align: left;
+}
+
+.stars {
+  margin-bottom: 20px;
 }
 
 .Review .container {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: blue;
+}
+
+.review-text {
+  color: #202020;
+  font-weight: 300;
+  font-size: 34px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 34px;
+  text-align: left;
+}
+
+#customer {
+  margin-bottom: 0px;
+  color: red;
+  font-size: 22px;
+  font-family: 'Domine', serif;
+}
+
+#location {
+  font-size: 20px;
+  font-family: 'Domine', serif;
 }
