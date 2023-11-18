@@ -7,12 +7,13 @@ export default function Hero() {
     <div className="hero-wrapper">
       <Container style={{ maxWidth: '1500px' }}>
         <div className="wrapper">
-          <div className="Hero">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-            inventore consequatur molestias adipisci repudiandae natus dicta cum
-            culpa, sed necessitatibus deleniti aspernatur architecto doloremque,
-            dolor maxime dolorum consequuntur nesciunt quibusdam.
-          </div>
+          <header className="Hero">
+            <h1>
+              We provide a full range of high quality, reliable domestic and
+              commercial electrical services throughout London and the
+              surrounding areas
+            </h1>
+          </header>
         </div>
       </Container>
     </div>
