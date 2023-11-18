@@ -47,17 +47,17 @@ export default function Footer() {
       <div className="socials">
         <a href="#facebooklink" target="_blank">
           <i>
-            <FaFacebook />
+            <FaFacebook color="orange" size="40" />
           </i>
         </a>
         <a href="#twitterlink" target="_blank">
-          <li>
-            <FaTwitter />
-          </li>
+          <i>
+            <FaTwitter color="orange" size="40" />
+          </i>
         </a>
         <a href="#instagramlink" target="_blank">
           <i>
-            <FaInstagram />
+            <FaInstagram color="orange" size="40" />
           </i>
         </a>
       </div>

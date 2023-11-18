@@ -55,3 +55,22 @@ footer a {
   color: var(--myWhite);
   font-size: 26px;
 }
+
+.business-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--myWhite);
+  font-size: 26px;
+}
+
+.business-address p,
+.business-address b {
+  margin: 1px 0;
+}
+
+footer .socials {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
