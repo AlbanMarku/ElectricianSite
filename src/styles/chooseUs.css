@@ -9,7 +9,7 @@
   align-content: stretch;
   justify-content: space-between;
   width: 60%;
-  padding: 0 80px;
+  padding: 0 80px 0 0;
   color: var(--myWhite);
   font-family: 'Dongle';
   text-align: left;
