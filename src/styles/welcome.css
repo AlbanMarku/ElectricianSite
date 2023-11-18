@@ -27,6 +27,10 @@
   text-align: left;
 }
 
+.info-area-text {
+  max-width: 800px;
+}
+
 .info-area h1 {
   max-width: 500px;
   margin-bottom: 40px;
@@ -36,7 +40,7 @@
   line-height: 60px;
 }
 
-#bolder {
+.info-area strong {
   color: black;
 }
 
