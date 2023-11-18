@@ -1,0 +1,57 @@
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px 0;
+  font-family: 'Dongle', sans-serif;
+  background-color: var(--myRed);
+}
+
+footer p {
+  text-align: left;
+}
+
+footer li {
+  margin: 10px 0;
+  text-align: left;
+  list-style: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  color: orange;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+#email {
+  font-size: 28px;
+}
+
+.main-contact a {
+  color: orange;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links a {
+  color: var(--myWhite);
+  font-size: 26px;
+}
