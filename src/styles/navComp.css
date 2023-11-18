@@ -14,3 +14,14 @@
   padding-top: 40px;
   background-color: var(--myRed);
 }
+
+.nav-bar .nav-links {
+  display: flex;
+  gap: 40px;
+  margin-left: 40px;
+}
+
+.sub-link {
+  color: #434343;
+  text-decoration: none;
+}
