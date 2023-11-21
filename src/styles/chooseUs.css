@@ -32,6 +32,11 @@
   line-height: 60px;
 }
 
+.choose-us-info .lg {
+  font-size: 40px;
+  line-height: 40px;
+}
+
 .choose-us-info p,
 .choose-us-info ul {
   font-weight: 300;

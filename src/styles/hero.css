@@ -1,4 +1,4 @@
-.lg {
+.hero-wrapper .lg {
   position: relative;
   height: 900px;
   overflow: hidden;
@@ -9,7 +9,7 @@
   border-bottom-left-radius: 80px;
 }
 
-.sm {
+.hero-wrapper .sm {
   position: relative;
   height: 300px;
   overflow: hidden;
@@ -24,7 +24,7 @@
   background-color: var(--myRed);
 }
 
-.lg h1 {
+.hero-wrapper .lg h1 {
   position: absolute;
   right: 80px;
   bottom: 80px;
@@ -38,7 +38,7 @@
   border-right: solid 4px #f2e9e4;
 }
 
-.sm h1 {
+.hero-wrapper .sm h1 {
   position: absolute;
   right: 80px;
   bottom: 80px;

@@ -1,7 +1,9 @@
 import Banner from '../components/Banner';
+import ChooseUs from '../components/ChooseUs';
 import Hero from '../components/Hero';
 import NavComp from '../components/NavComp';
 import Welcome from '../components/Welcome';
+import WhyUsComp from '../components/WhyUsComp';
 
 export default function Services() {
   const heroContent = 'Providing high quality electrical, services in London';
@@ -41,6 +43,7 @@ export default function Services() {
       <Banner />
       <Hero content={heroContent} size="sm" />
       <Welcome title="Our Services" content={welcomeContent} />
+      <ChooseUs WhyUs={<WhyUsComp />} />
     </div>
   );
 }
