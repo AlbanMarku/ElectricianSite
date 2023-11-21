@@ -1,7 +1,9 @@
 import Banner from '../components/Banner';
 import ChooseUs from '../components/ChooseUs';
+import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import NavComp from '../components/NavComp';
+import Review from '../components/Review';
 import Welcome from '../components/Welcome';
 import WhyUsComp from '../components/WhyUsComp';
 
@@ -44,6 +46,8 @@ export default function Services() {
       <Hero content={heroContent} size="sm" />
       <Welcome title="Our Services" content={welcomeContent} />
       <ChooseUs WhyUs={<WhyUsComp />} />
+      <Review />
+      <Footer />
     </div>
   );
 }
