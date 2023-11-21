@@ -5,9 +5,10 @@ import ChooseUs from '../components/ChooseUs';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import ListComp from '../components/ListComp';
+import Main from '../components/Main';
 import NavComp from '../components/NavComp';
 import Review from '../components/Review';
-import Welcome from '../components/Welcome';
+import WelcomeComp from '../components/WelcomeComp';
 import WhyUsComp from '../components/WhyUsComp';
 import '../styles/home.css';
 
@@ -39,10 +40,7 @@ export default function Home() {
       <NavComp />
       <Banner />
       <Hero content={heroContent} size="lg" />
-      <Welcome
-        title="Welcome to The One Electrician Ltd"
-        content={welcomeContent}
-      />
+      <Main Comp={<WelcomeComp title="welcome" content={welcomeContent} />} />
       <ChooseUs WhyUs={<WhyUsComp />} List={<ListComp />} />
       <Review />
       <Footer />
