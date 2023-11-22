@@ -1,4 +1,5 @@
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 export default function WhyUsComp() {
   return (
@@ -16,7 +17,11 @@ export default function WhyUsComp() {
         are getting both excellent value for money and a personal service at
         each and every job we attend.
       </p>
-      <Button id="choose-btn">View Services</Button>
+      <Button id="choose-btn">
+        <Link style={{ color: 'white', textDecoration: 'none' }} to="/services">
+          View Services
+        </Link>
+      </Button>
     </div>
   );
 }
