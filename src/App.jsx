@@ -5,6 +5,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Gallery from './views/Gallery';
 import Home from './views/Home';
 import Services from './views/Services';
+import Testimonials from './views/Testimonials';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/testimonials" element={<Testimonials />} />
         </Routes>
       </Router>
     </div>
