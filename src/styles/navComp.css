@@ -1,4 +1,5 @@
 .nav-bar {
+  position: relative;
   padding: 20px;
   background-color: var(--myWhite);
   border-bottom: 1px solid darkgrey;
@@ -7,10 +8,12 @@
 }
 
 .NavComp {
+  position: relative;
   background-color: var(--myRed);
 }
 
 .bar-wrapper {
+  position: relative;
   padding-top: 40px;
   background-color: var(--myRed);
 }
@@ -24,4 +27,20 @@
 .sub-link {
   color: #434343;
   text-decoration: none;
+}
+
+.bar-wrapper::after {
+  position: absolute;
+  right: 0;
+  bottom: -242px;
+  left: 0;
+  z-index: 1;
+  max-width: 800px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url('../assets//images/titlecurve.svg') no-repeat top center;
+  background-size: auto;
+  background-size: contain;
+  content: '';
 }
