@@ -1,3 +1,16 @@
 .GalleryComp {
   height: 100%;
 }
+
+.GalleryComp h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 75px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 60px;
+  text-align: left;
+}
+
+.GalleryComp img {
+  border-radius: 20px;
+}
