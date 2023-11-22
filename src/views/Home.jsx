@@ -40,7 +40,14 @@ export default function Home() {
       <NavComp />
       <Banner />
       <Hero content={heroContent} size="lg" />
-      <Main Comp={<WelcomeComp title="welcome" content={welcomeContent} />} />
+      <Main
+        Comp={
+          <WelcomeComp
+            title="Welcome to The One Electrician Ltd"
+            content={welcomeContent}
+          />
+        }
+      />
       <ChooseUs WhyUs={<WhyUsComp />} List={<ListComp />} />
       <Review />
       <Footer />

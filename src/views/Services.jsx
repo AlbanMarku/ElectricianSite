@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 import Main from '../components/Main';
 import NavComp from '../components/NavComp';
 import Review from '../components/Review';
+import ServicesComp from '../components/ServicesComp';
 import WhyUsComp from '../components/WhyUsComp';
 
 export default function Services() {
@@ -44,6 +45,7 @@ export default function Services() {
       <NavComp />
       <Banner />
       <Hero content={heroContent} size="sm" />
+      <Main Comp={<ServicesComp />} />
       <ChooseUs WhyUs={<WhyUsComp />} />
       <Review />
       <Footer />

@@ -1,0 +1,28 @@
+.inner-container {
+  overflow: hidden;
+}
+
+.ServicesComp {
+  position: relative;
+  height: 100%;
+}
+
+.service-img {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 45%;
+  height: 100%;
+  background: url('../assets//images/service.jpg');
+  background-size: cover;
+  border-top-right-radius: 80px;
+}
+
+.service-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.service-info p {
+  width: 50%;
+}
