@@ -22,6 +22,9 @@ export default function NavComp() {
                   <Link className="sub-link" to="/services">
                     Our Services
                   </Link>
+                  <Link className="sub-link" to="/gallery">
+                    Gallery
+                  </Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
