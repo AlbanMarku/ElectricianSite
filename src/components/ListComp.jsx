@@ -4,6 +4,7 @@ export default function ListComp() {
       <h1>What We Do</h1>
       <ul>
         <li>EICR Safety Checks</li>
+        <li>EV Charger</li>
         <li>Full re-wireing</li>
         <li>Part re-wireing</li>
         <li>Periodic Inspection and Testing</li>

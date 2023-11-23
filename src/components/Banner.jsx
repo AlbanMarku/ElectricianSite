@@ -9,8 +9,8 @@ export default function Banner() {
       <Container style={{ maxWidth: '1500px' }}>
         <div className="Banner">
           <div className="contact-area">
-            <p>Mobile: 07306066306</p>
-            <p>Email: albanmarku@duck.com</p>
+            <p>Mobile: 07590360176</p>
+            <p>Email: vecchiovincenzo123@gmail.com</p>
           </div>
           <img src={logo} alt="logo" />
         </div>

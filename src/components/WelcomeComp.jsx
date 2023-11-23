@@ -35,7 +35,7 @@ export default function WelcomeComp({ content, title }) {
         <div className="display-area">
           <div className="display-area-text">
             <p>
-              With over 5 years experience in the electrical industry you can
+              With over 10 years experience in the electrical industry you can
               rest assured that you are in good hands with our services. We are
               also accredited with Napit, Part P, and Trust Mark.
             </p>
