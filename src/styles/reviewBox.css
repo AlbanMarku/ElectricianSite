@@ -1,0 +1,64 @@
+.TestimonialsComp main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 100px;
+}
+
+.TestimonialsComp h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 75px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 60px;
+  text-align: left;
+}
+
+.ReviewBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  max-width: 700px;
+  padding: 40px;
+  text-align: left;
+  border: solid 2px #9a8c99;
+  border-radius: 20px;
+}
+
+.ReviewBox p {
+  font-weight: 300;
+  font-size: 26px;
+  font-family: 'Dongle', serif;
+  line-height: 30px;
+}
+
+.ReviewBox .details {
+  position: absolute;
+  bottom: -30px;
+  z-index: 10;
+  padding: 0 40px;
+  text-align: left;
+  background-color: var(--myWhite);
+}
+
+.ReviewBox .details h4 {
+  color: #e10b0b;
+}
+
+.ReviewBox .details p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 26px;
+  font-family: 'Dongle', serif;
+  line-height: 30px;
+}
+
+.ReviewBox .details-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}

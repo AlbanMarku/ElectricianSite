@@ -13,11 +13,11 @@ export default function InfoComp() {
         or by clicking the link below to view our contact page where you can
         send us an enquiry online.
       </p>
-      <Button id="choose-btn">
+      {/* <Button id="choose-btn">
         <Link style={{ color: 'white', textDecoration: 'none' }} to="/services">
           edit my link
         </Link>
-      </Button>
+      </Button> */}
     </div>
   );
 }
