@@ -5,7 +5,8 @@
 
 .contact-area {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 60px;
 }
 
 .contact-area p {
@@ -21,4 +22,22 @@
 
 .banner-wrapper {
   background-color: var(--myRed);
+}
+
+@media only screen and (max-width: 988px) {
+  .contact-area {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .contact-area p {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  .Banner img {
+    height: 80px;
+    margin: 0;
+  }
 }
