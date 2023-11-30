@@ -1,0 +1,42 @@
+.ContactComp {
+  padding-bottom: 100px;
+}
+
+.ContactComp .contact-area {
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+}
+
+.ContactComp .contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  color: orange;
+  background-color: var(--myRed);
+  border-radius: 10px;
+}
+
+.ContactComp .map-area {
+  flex: 1;
+  border: solid blue;
+}
+
+.ContactComp h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 75px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 60px;
+  text-align: left;
+}
+
+.ContactComp .contact-details h2 {
+  margin-bottom: 40px;
+  font-size: 55px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 60px;
+  text-align: left;
+}

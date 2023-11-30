@@ -44,3 +44,10 @@
   background-size: contain;
   content: '';
 }
+
+@media only screen and (max-width: 988px) {
+  .bar-wrapper::after {
+    bottom: -260px;
+    height: 90px;
+  }
+}

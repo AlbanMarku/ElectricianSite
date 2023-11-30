@@ -54,3 +54,27 @@
   font-size: 20px;
   font-family: 'Domine', serif;
 }
+
+@media only screen and (max-width: 988px) {
+  .Review {
+    padding: 100px 0;
+  }
+
+  .Review .container {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .review-info {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .review-img {
+    flex: auto;
+    width: 400px;
+    height: 400px;
+    margin: 0;
+    border-radius: 10px;
+  }
+}

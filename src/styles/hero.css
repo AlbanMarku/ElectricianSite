@@ -50,3 +50,18 @@
   text-align: right;
   border-right: solid 4px #f2e9e4;
 }
+
+@media only screen and (max-width: 988px) {
+  .hero-wrapper .lg {
+    height: 600px;
+  }
+
+  .hero-wrapper .lg h1 {
+    right: 0;
+    bottom: 90px;
+    width: 100%;
+    margin-right: 15px;
+    padding: 40px;
+    font-size: 20px;
+  }
+}
