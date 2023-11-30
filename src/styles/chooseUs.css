@@ -63,3 +63,20 @@
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
 }
+
+@media only screen and (max-width: 988px) {
+  .choose-us-info {
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    padding: 0;
+  }
+  .choose-us-img {
+    position: static;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+}
