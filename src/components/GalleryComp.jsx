@@ -72,7 +72,7 @@ export default function GalleryComp() {
   return (
     <div className="GalleryComp">
       <Container style={{ maxWidth: '1500px' }}>
-        <div style={{ padding: '0 100px 100px 100px' }}>
+        <div className="gal-container">
           <h1>Photo Gallery</h1>
 
           <PhotoAlbum

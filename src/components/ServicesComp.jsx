@@ -5,9 +5,9 @@ import '../styles/servicesComp.css';
 export default function ServicesComp() {
   return (
     <div className="ServicesComp">
-      <Container style={{ maxWidth: '1500px' }}>
-        <div className="service-img" />
+      <div className="service-img" />
 
+      <Container className="serv-wrap" style={{ maxWidth: '1500px' }}>
         <div className="service-info">
           <h1>Our Services</h1>
           <p>
