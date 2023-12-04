@@ -14,3 +14,17 @@
 .GalleryComp img {
   border-radius: 20px;
 }
+
+.gal-container {
+  padding: 0 100px 100px 100px;
+}
+
+@media only screen and (max-width: 988px) {
+  .GalleryComp {
+    padding-bottom: 250px;
+  }
+
+  .gal-container {
+    padding: 0;
+  }
+}

@@ -51,12 +51,12 @@
 @media only screen and (max-width: 988px) {
   .ServicesComp {
     margin: 0;
-    padding-bottom: 250px;
+    padding-bottom: 500px;
   }
 
   .serv-wrap {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .main {
@@ -73,10 +73,26 @@
   }
 
   .service-img {
-    position: static;
+    position: absolute;
+    top: 840px;
     width: 100%;
-    height: 400px;
-    margin-top: 20px;
+    height: 600px;
     border-radius: 0;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .service-img {
+    position: absolute;
+    top: 950px;
+    width: 100%;
+    height: 600px;
+    border-radius: 0;
+  }
+}
+
+/* @media only screen and (min-width: 988px) and (max-width: 778px) {
+  .service-img {
+    border: solid blue;
+  }
+} */
