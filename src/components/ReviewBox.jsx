@@ -9,7 +9,7 @@ export default function ReviewBox({ location, review }) {
       <Rating readOnly value="5" size="large" />
       <p>{`"${review}"`}</p>
       <div className="details">
-        <h4>Customer from Checkatrader</h4>
+        <h4>Customer from Google Reviews</h4>
         <div className="details-name">
           <FaLocationDot style={{ marginTop: '-5px' }} />
           <p>{location}</p>

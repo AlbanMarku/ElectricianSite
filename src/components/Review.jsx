@@ -21,7 +21,7 @@ export default function Review() {
                 able to attend same day! Issue was traced and resolved in quick
                 order, very happy. &quot;
               </p>
-              <p id="customer">Customer from Checkatrade</p>
+              <p id="customer">Customer from Google Reviews</p>
               <p id="location">London</p>
             </div>
           </div>

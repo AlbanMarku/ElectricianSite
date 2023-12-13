@@ -15,7 +15,7 @@ export default function InfoComp() {
       </p>
       {/* <Button id="choose-btn">
         <Link style={{ color: 'white', textDecoration: 'none' }} to="/services">
-          edit my link
+          Service Enquiry
         </Link>
       </Button> */}
     </div>
