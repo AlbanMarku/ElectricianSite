@@ -7,6 +7,11 @@
   border-top-right-radius: 15px;
 }
 
+#quote-btn {
+  background-color: var(--myRed);
+  border: none;
+}
+
 .NavComp {
   position: relative;
   background-color: var(--myRed);

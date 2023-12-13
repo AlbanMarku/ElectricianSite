@@ -1,0 +1,56 @@
+.BookForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.custom-modal {
+  max-width: 700px; /* Set the maximum width */
+}
+
+#contact-form {
+  width: 100%;
+}
+
+.Section {
+  margin: 10px;
+  text-align: left;
+}
+
+label {
+  display: block; /* Display labels above input fields */
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: rgb(188, 188, 188);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#message {
+  height: 400px;
+}
+
+.BookForm button {
+  width: 100%;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #af0909;
+  border: 1px solid #af0909;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .BookForm {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
