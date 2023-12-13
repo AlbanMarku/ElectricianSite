@@ -73,6 +73,7 @@ footer .socials {
   display: flex;
   justify-content: space-between;
   width: 300px;
+  margin: 20px 0;
 }
 
 @media only screen and (max-width: 988px) {

@@ -39,10 +39,8 @@ export default function Footer() {
         <p>
           <b>Business Address:</b>
         </p>
-        <p>2 Mellison Road</p>
-
+        <p>Mitchim Eastfields</p>
         <p>London</p>
-        <p>SW17 9AY</p>
       </div>
       <div className="socials">
         <a href="#facebooklink" target="_blank">
