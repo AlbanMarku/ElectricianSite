@@ -55,4 +55,14 @@
     bottom: -260px;
     height: 90px;
   }
+
+  .nav-bar .nav-links {
+    display: flex;
+    gap: 40px;
+    margin-left: 0;
+  }
+
+  #quote-btn {
+    margin-top: 40px;
+  }
 }
