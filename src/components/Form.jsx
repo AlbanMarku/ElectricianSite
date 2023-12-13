@@ -10,8 +10,12 @@ export default function Form() {
           <input type="text" id="name" name="name" required />
         </div>
         <div className="Section">
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" required />
+          <label htmlFor="email">Email &#40;optional&#41;</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div className="Section">
+          <label htmlFor="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" required />
         </div>
         <div className="Section">
           <label htmlFor="message">Message</label>
