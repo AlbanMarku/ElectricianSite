@@ -14,7 +14,7 @@ export default function Handyman() {
     <div>
       <NavComp />
       <Banner />
-      <Hero content={heroContent} size="lg" />
+      <Hero content={heroContent} size="sm" />
       <Main Comp={<HandyComp />} />
       <ChooseUs WhyUs={<InfoComp />} />
       <Review />
