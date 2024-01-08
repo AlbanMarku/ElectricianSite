@@ -1,4 +1,5 @@
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import '../styles/footer.css';
 
@@ -18,21 +19,21 @@ export default function Footer() {
       </div>
       <div className="links">
         <ul>
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="services.html">Our Services</a>
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="testimonials.html">Testimonials</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
+          <Link className="sub-link" to="/">
+            Home
+          </Link>
+          <Link className="sub-link" to="/services">
+            Services
+          </Link>
+          <Link className="sub-link" to="/gallery">
+            Gallery
+          </Link>
+          <Link className="sub-link" to="/testimonials">
+            Testimonials
+          </Link>
+          <Link className="sub-link" to="/contact">
+            Contact
+          </Link>
         </ul>
       </div>
       <div className="business-address">

@@ -45,13 +45,14 @@ footer a {
   color: orange;
 }
 
-.links {
+.links ul {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }
 
-.links a {
+.links .sub-link {
   color: var(--myWhite);
   font-size: 26px;
 }

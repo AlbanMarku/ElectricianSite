@@ -1,0 +1,90 @@
+.HandyComp {
+  position: relative;
+  height: 100%;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  font-family: 'Dongle';
+}
+
+.handy-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 45%;
+  height: 100%;
+  background: url('../assets//images/handy.jpg');
+  background-position: 0% 100%;
+  background-size: cover;
+  border-top-right-radius: 80px;
+}
+
+.handy-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.handy-info > * {
+  width: 50%;
+  margin-left: auto;
+  text-align: left;
+}
+
+.handy-info h1 {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 75px;
+  font-family: 'Dongle', sans-serif;
+  line-height: 60px;
+}
+
+.handy-info p,
+.handy-info ul {
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+@media only screen and (max-width: 988px) {
+  .HandyComp {
+    margin: 0;
+    padding-bottom: 500px;
+  }
+
+  .handy-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    align-items: flex-start;
+  }
+
+  .handy-info > * {
+    width: 100%;
+    margin: 0;
+  }
+
+  .handy-info ul {
+    margin: 20px 0;
+  }
+
+  .handy-img {
+    position: absolute;
+    top: 540px;
+    width: 100%;
+    height: 600px;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .handy-img {
+    position: absolute;
+    top: 600px;
+    width: 100%;
+    height: 600px;
+    background-position: 0% 190%;
+    border-radius: 0;
+  }
+}
