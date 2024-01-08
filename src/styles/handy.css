@@ -46,7 +46,7 @@
 }
 
 @media only screen and (max-width: 988px) {
-  .handyComp {
+  .HandyComp {
     margin: 0;
     padding-bottom: 500px;
   }
@@ -71,7 +71,7 @@
 
   .handy-img {
     position: absolute;
-    top: 840px;
+    top: 540px;
     width: 100%;
     height: 600px;
     border-radius: 0;
@@ -81,9 +81,10 @@
 @media only screen and (max-width: 540px) {
   .handy-img {
     position: absolute;
-    top: 950px;
+    top: 600px;
     width: 100%;
     height: 600px;
+    background-position: 0% 190%;
     border-radius: 0;
   }
 }

@@ -16,22 +16,16 @@ export default function HandyComp() {
             what you need right here.
           </p>
           <ul>
-            <li>Flatpack construction</li>
-            <li>Furniture installation</li>
+            <li>Painter</li>
+            <li>Repair wall, ceiling and ect..</li>
             <li>Room painting</li>
-            <li>Door installation/repairs</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
-            <li>more services</li>
+            <li>Door Painter</li>
+            <li>Tails</li>
+            <li>Carpet</li>
+            <li>Lock-smith: change and repairs</li>
+            <li>Indoor cleaning</li>
+            <li>Grass cutting and garden services</li>
+            <li>Clean patio with water-pressure hose</li>
           </ul>
         </div>
       </Container>
